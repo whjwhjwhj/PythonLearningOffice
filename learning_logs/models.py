@@ -19,4 +19,4 @@ class Entry(models.Model):
 
     def _str_(self):
         """返回模型的字符串"""
-        return self.text[:50] + '........'
+        return self.text[:50] + '.....'

@@ -1,3 +1,6 @@
-<p>This is first webpage for me. </p>
-<p>Learning Log</p>
-<p>Learning Log helps you keep track of your learning ,for any topic you're learning about. </p>
+
+{% extends "learning_logs/base.html" %}
+
+{% block context %}
+    <p>Learning Log helps you keep track of your learning ,for any topic you're learning about. </p>
+{% end block context %}

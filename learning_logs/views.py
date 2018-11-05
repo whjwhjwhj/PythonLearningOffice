@@ -27,7 +27,7 @@ def new_topic(request):
     if request.method != 'POST':
         #位提交数据，创建一个新表单
         form = TopicForm()
-    else :
+    else:
         #POST递交新的数据，对数据进行处理
         form = TopicForm(request.POST)
         if form.is_valid():

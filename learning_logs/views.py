@@ -13,7 +13,7 @@ def topics(request):
     """显示所有主题"""
     topics = Topic.objects.order_by('date_added')
     context = {'topics': topics}
-    return render(request, '.template/learning_logs/topics.html', context)
+    return render(request, 'learning_logs/topics.html', context)
 
 def topic(request,topic_id):
     """显示单个主题机器所有的条目"""

@@ -53,8 +53,10 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 
 ]
-
+# added of HaijunWei
+LOGIN_REDIRECT_URL = '/'
 ROOT_URLCONF = 'learning_log.urls'
+
 
 TEMPLATES = [
     {
@@ -74,7 +76,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'learning_log.wsgi.application'
-
 
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases

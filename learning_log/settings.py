@@ -40,7 +40,7 @@ INSTALLED_APPS = [
 
     # my application
     'learning_logs',
-    'users'
+    'users',
 ]
 
 MIDDLEWARE = [

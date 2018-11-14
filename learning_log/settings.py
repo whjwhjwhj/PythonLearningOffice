@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     'users',
 
     #第三方应用程序
-    'bootstrap3',
+    'bootstrap4',
 ]
 
 MIDDLEWARE = [
@@ -133,6 +133,7 @@ STATIC_URL = '/static/'
 LOGIN_URL = '/users/login/'
 
 # django-bootstrap3的设置
-BOOTSTRAP3 = {'include_jquery': True}
+BOOTSTRAP4 = {'include_jquery': True}
+#STATICFILES_DIRS = (os.path.join('static'),)
 
 

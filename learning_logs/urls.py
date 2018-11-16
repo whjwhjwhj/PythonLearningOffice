@@ -1,4 +1,4 @@
-"""定义learning_logs的url模式"""
+"""定义learning_logs的---url---模式"""
 from django.conf.urls import url
 from . import views
 app_name = '[learning_log]'

@@ -1,7 +1,7 @@
 {% load bootstrap4 %}
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:margin-left="http://www.w3.org/1999/xhtml">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="IE=edge">
@@ -15,23 +15,24 @@
 
     <body>
         <!-- Static navbar -->
-        <nav class="navbar navbar-default navbar-static-top">
+        <nav class="navbar navbar-default navbar-static-top ">
             <div class="container">
 
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed"
-                            data-toggle="'collapse" data-target="'#navbar"
-                            aria-expanded="false" aria-controls="'navbar">
+                            data-toggle="collapse" data-target="#navbar"
+                            aria-expanded="false" aria-controls="navbar">
                     </button>
                     <a class="navbar-brand" href="{% url 'learning_logs:index' %}">
                         Learning Log</a>
                 </div>
-
-                <div id="navbar" class="'navbar-collapse collapse">
+                <!--<div id="navbar" class="navbar-collapse collapse">-->
                     <ul class="nav navbar-nav">
-                        <li><a href="{% url 'learning_logs:topics' %}">Topics</a></li>
+                        <li class="nav-item">
+                            <a href="{% url 'learning_logs:topics' %}">Topics</a>
+                        </li>
                     </ul>
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-right">
                         {% if user.is_authenticated %}
                             <li><a>Hello,{{user.username}}.</a></li>
                             <li><a href="{% url 'users:logout' %}">log out</a></li>
@@ -40,10 +41,9 @@
                             <li><a href="{% url 'users:login' %}" >log in</a></li>
                         {% endif %}
                     </ul>
-                </div><!--/.nav-collapse-->
+                <!--</div>&lt;!&ndash;/.nav-collapse&ndash;&gt;-->
 
             </div>
-
         </nav>
 
         <div class="container">

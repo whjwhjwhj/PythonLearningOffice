@@ -348,7 +348,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542783854624</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="2018/11/21 刷新3.7.0到3.7.1。">
+      <created>1542784570916</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1542784570916</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">

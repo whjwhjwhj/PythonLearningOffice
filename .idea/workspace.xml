@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8de6be42-4a1e-4e11-8e3b-6241fdf74c79" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8de6be42-4a1e-4e11-8e3b-6241fdf74c79" name="Default Changelist" comment="" />
     <list id="3f32c290-15ef-47f4-887a-fee52a27c15b" name="Revert: 2018/11/21 删除了placeholder。" comment="" />
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

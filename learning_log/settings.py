@@ -135,12 +135,9 @@ LOGIN_URL = '/users/login/'
 
 # django-bootstrap3的设置
 BOOTSTRAP4 = {'include _jquery': True}
-#STATICFILES_DIRS = (os.path.join('static'),)
-
-#heroku设置
 
 
-
+# #heroku设置
 if os.getcwd() =='/app':
     import dj_database_url
     DATABASES = {
@@ -152,12 +149,13 @@ if os.getcwd() =='/app':
     #支持所有的主机头（host header)
     ALLOWED_HOSTS = ['*']
 
-#静态资产配置
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-STATIC_URL = '/static/'
+    #静态资产配置
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+STATIC_ROOT = 'staticfiles'
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static'),
-)
+os.path.join(BASE_DIR, 'static')
+    ),
 
+# Configure Django App for Heroku.
 #django_heroku.settings(locals())
+
